@@ -5,8 +5,12 @@ import {
   Typography,
   CssBaseline,
 } from "@material-ui/core";
-import { ThemeProvider } from "@material-ui/core/styles";
+import { ThemeProvider, makeStyles } from "@material-ui/core/styles";
 import theme from "./theme";
+
+const useStyles = makeStyles((theme) => ({
+ // add some styles
+}));
 
 function App() {
   return (
